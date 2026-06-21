@@ -1,8 +1,6 @@
 # TPHP
 
-This repository contains the core analysis code for the TPHP project, which supports large-scale, spatially resolved human proteome profiling. The dataset quantifies >13,000 proteins across 2856 samples spanning 58 major tissue types (251 tissue subtypes) and 25 cancer types using DIA-MS.
-
-The study is described in the **[bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.14.638212v1) (2025)** preprint.
+This repository contains the core analysis code for the TPHP project. The associated study, **“[Spatial distribution of the proteome in the human body and in cancers](https://www.nature.com/articles/s41586-026-10660-y)”**, has been published in *Nature*. Using data-independent acquisition mass spectrometry, the study quantified 13,609 proteins across 2,856 samples, covering 58 major tissue types, 251 tissue subtypes and 25 cancer types, thereby establishing a spatially resolved quantitative landscape of the human proteome in healthy, developmental and cancer states. The dataset can be interactively explored through the **[ProteinTalks database](https://db.prottalks.com/)**.
 
 The code performs per-cancer, per-protein tumor versus paired non-tumor comparisons using linear mixed-effects regression, enabling systematic analysis of oncogenic proteome changes across tissues. Results are exported as RDS objects for downstream statistical analysis, visualization and integration with the public proteome database.
 
