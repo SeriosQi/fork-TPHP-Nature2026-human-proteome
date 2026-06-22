@@ -1,8 +1,15 @@
 # TPHP
 
-This repository contains the core analysis code for the TPHP project. The associated study, **“[Spatial distribution of the proteome in the human body and in cancers](https://www.nature.com/articles/s41586-026-10660-y)”**, has been published in *Nature*. Using data-independent acquisition mass spectrometry, the study quantified 13,609 proteins across 2,856 samples, covering 58 major tissue types, 251 tissue subtypes and 25 cancer types, thereby establishing a spatially resolved quantitative landscape of the human proteome in healthy, developmental and cancer states. The dataset can be interactively explored through the **[ProteinTalks database](https://db.prottalks.com/)**.
+This repository contains the core analysis code for the TPHP project. The associated study, **“[Spatial distribution of the proteome in the human body and in cancers](https://www.nature.com/articles/s41586-026-10660-y)”**, has been published in *Nature*. Using data-independent acquisition mass spectrometry, the study quantified 13,609 proteins across 2,856 samples, covering 58 major tissue types, 251 tissue subtypes and 25 cancer types, thereby establishing a spatially resolved quantitative landscape of the human proteome in healthy, developmental and cancer states.
 
-The code performs per-cancer, per-protein tumor versus paired non-tumor comparisons using linear mixed-effects regression, enabling systematic analysis of oncogenic proteome changes across tissues. Results are exported as RDS objects for downstream statistical analysis, visualization and integration with the public proteome database.
+<img width="1472" height="1101" alt="image" src="https://github.com/user-attachments/assets/eec3a145-0a50-4bb6-97c1-507806831897" />
+
+The dataset can be interactively explored through the **[ProteinTalks database](https://db.prottalks.com/)**.
+
+<img width="2509" height="1087" alt="image" src="https://github.com/user-attachments/assets/fd523db4-3d09-453b-86f8-fe59fa0007a6" />
+
+
+The code is the repository performs per-cancer, per-protein tumor versus paired non-tumor comparisons using linear mixed-effects regression, enabling systematic analysis of oncogenic proteome changes across tissues. Results are exported as RDS objects for downstream statistical analysis, visualization and integration with the public proteome database.
 
 ## Repository layout
 
