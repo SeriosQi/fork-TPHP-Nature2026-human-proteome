@@ -8,4 +8,4 @@ File previously here:
 
 Please download the original file from our Google Drive shared folder and place it in this directory as `tumor_compare_data.parquet`.
 
-Sharing link: https://drive.google.com/drive/xxx
+Sharing link: https://drive.google.com/drive/folders/1PeU255ZcPmHajgwr0JyLktjw2OGjxjhp?usp=sharing

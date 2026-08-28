@@ -15,7 +15,7 @@ The code is the repository performs per-cancer, per-protein tumor versus paired 
 
 Example input and result files are **not** stored in this GitHub repository. Please download them from our Google Drive shared folder and place them at the paths below.
 
-Sharing link: https://drive.google.com/drive/xxx
+Sharing link: https://drive.google.com/drive/folders/1PeU255ZcPmHajgwr0JyLktjw2OGjxjhp?usp=sharing
 
 | File | Place at |
 | --- | --- |
