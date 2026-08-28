@@ -11,11 +11,24 @@ The dataset can be interactively explored through the **[ProteinTalks database](
 
 The code is the repository performs per-cancer, per-protein tumor versus paired non-tumor comparisons using linear mixed-effects regression, enabling systematic analysis of oncogenic proteome changes across tissues. Results are exported as RDS objects for downstream statistical analysis, visualization and integration with the public proteome database.
 
+## Example data
+
+Example input and result files are **not** stored in this GitHub repository. Please download them from our Google Drive shared folder and place them at the paths below.
+
+Sharing link: https://drive.google.com/drive/xxx
+
+| File | Place at |
+| --- | --- |
+| `tumor_compare_data.parquet` | `data/tumor_compare_data.parquet` |
+| `compare_report_output.rds` | `output/compare_report_output.rds` |
+
+See `data/README.md` and `output/README.md`.
+
 ## Repository layout
 
 - `tumor_dysregulation_analysis.R` — main analysis script
-- `data/tumor_compare_data.parquet` — input table (paired tumor/non-tumor)
-- `output/compare_report_output.rds` — main result
+- `data/tumor_compare_data.parquet` — input table (paired tumor/non-tumor; download from Google Drive)
+- `output/compare_report_output.rds` — main result (download from Google Drive, or regenerate by running the script)
 - `output/package_versions.txt` — R and package versions used
 
 
@@ -71,7 +84,7 @@ This project is script-based, and no software installation step is required beyo
 
 ## Quick start
 
-From the repository root:
+Download `tumor_compare_data.parquet` from the Google Drive link above into `data/`, then from the repository root:
 
 ```bash
 Rscript tumor_dysregulation_analysis.R
@@ -79,13 +92,13 @@ Rscript tumor_dysregulation_analysis.R
 
 ## 3.1 Input files
 
-Default input path:
+Default input path (download from Google Drive; see **Example data**):
 
 - `data/tumor_compare_data.parquet`
 
 ## 3.2 Expected output files
 
-After a successful run, the script writes:
+After a successful run, the script writes (or you may download the precomputed file from Google Drive):
 
 - `output/compare_report_output.rds`
 
